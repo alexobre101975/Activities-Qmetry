@@ -346,7 +346,7 @@ Register - Activities
 
 
 # Enter Boton Register
-    Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnRegister
+#    Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnRegister
     Press Keycode           23
 
 # Back
@@ -391,7 +391,7 @@ Unregister - Activities
 
 # Enter Boton Unregister
     Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvTitle
-    Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnUnregister
+#    Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnUnregister
     Press Keycode           23
 
 # Back
