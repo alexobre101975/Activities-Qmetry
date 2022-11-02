@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20221101 19:18:51.604" rpa="false" schemaversion="2">
+<suite id="s1" name="Activities" source="C:\Users\Alejandro\Desktop\Activities\Activities.robot">
+<kw name="Open App" library="Keywords" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${url}</arg>
+<arg>platformName=${PlatFormName}</arg>
+<arg>platformVersion=${PlatFormVersion}</arg>
+<arg>deviceName=${DeviceName}</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=2500</arg>
+<arg>noReset=True</arg>
+<arg>activateName=${Activity_NAME}</arg>
+<arg>packageName=${PACKAGE_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20221101 19:18:51.783" endtime="20221101 19:19:06.865"/>
+</kw>
+<status status="PASS" starttime="20221101 19:18:51.783" endtime="20221101 19:19:06.865"/>
+</kw>
+<test id="s1-t1" name="Automation Window Activity Test Cases">
+<kw name="Open App" library="Keywords">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${url}</arg>
+<arg>platformName=${PlatFormName}</arg>
+<arg>platformVersion=${PlatFormVersion}</arg>
+<arg>deviceName=${DeviceName}</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=2500</arg>
+<arg>noReset=True</arg>
+<arg>activateName=${Activity_NAME}</arg>
+<arg>packageName=${PACKAGE_NAME}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<status status="PASS" starttime="20221101 19:19:06.866" endtime="20221101 19:19:23.940"/>
+</kw>
+<status status="PASS" starttime="20221101 19:19:06.865" endtime="20221101 19:19:23.940"/>
+</kw>
+<tag>Automation</tag>
+<tag>cases</tag>
+<status status="PASS" starttime="20221101 19:19:06.865" endtime="20221101 19:19:23.941"/>
+</test>
+<test id="s1-t2" name="NGG-TC-58 Home - Activities">
+<kw name="Home - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:23.942" endtime="20221101 19:19:24.697"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:24.697" endtime="20221101 19:19:25.384"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:25.384" endtime="20221101 19:19:26.065"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:26.065" endtime="20221101 19:19:28.164"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:28.164" endtime="20221101 19:19:28.249"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:28.249" endtime="20221101 19:19:33.172"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:33.172" endtime="20221101 19:19:33.283"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvAppName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:33.283" endtime="20221101 19:19:34.373"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:34.373" endtime="20221101 19:19:34.445"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:34.445" endtime="20221101 19:19:34.582"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:34.582" endtime="20221101 19:19:34.682"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:34.682" endtime="20221101 19:19:36.329"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:36.329" endtime="20221101 19:19:36.483"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:36.483" endtime="20221101 19:19:37.174"/>
+</kw>
+<status status="PASS" starttime="20221101 19:19:23.942" endtime="20221101 19:19:37.174"/>
+</kw>
+<tag>Automation</tag>
+<tag>case58</tag>
+<status status="PASS" starttime="20221101 19:19:23.942" endtime="20221101 19:19:37.175"/>
+</test>
+<test id="s1-t3" name="NGG-TC-57 Enter to days and categories - Activities">
+<kw name="Enter to days and categories - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:37.177" endtime="20221101 19:19:38.438"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:38.438" endtime="20221101 19:19:39.481"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:39.482" endtime="20221101 19:19:40.731"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:40.731" endtime="20221101 19:19:42.072"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/rvActivities</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:19:42.072" endtime="20221101 19:19:46.740"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:46.741" endtime="20221101 19:19:46.898"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:46.898" endtime="20221101 19:19:47.529"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:47.529" endtime="20221101 19:19:48.577"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:48.577" endtime="20221101 19:19:49.219"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:49.219" endtime="20221101 19:19:50.240"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:50.240" endtime="20221101 19:19:50.870"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:50.870" endtime="20221101 19:19:51.881"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:51.881" endtime="20221101 19:19:52.489"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:52.490" endtime="20221101 19:19:53.485"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:53.485" endtime="20221101 19:19:54.130"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:54.130" endtime="20221101 19:19:55.121"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:55.121" endtime="20221101 19:19:55.964"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:55.965" endtime="20221101 19:19:57.007"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:57.007" endtime="20221101 19:19:57.644"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:57.644" endtime="20221101 19:19:58.679"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:58.679" endtime="20221101 19:19:59.324"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:19:59.324" endtime="20221101 19:20:00.223"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:00.223" endtime="20221101 19:20:00.823"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:00.823" endtime="20221101 19:20:01.750"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:01.751" endtime="20221101 19:20:02.461"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:02.461" endtime="20221101 19:20:03.333"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:03.334" endtime="20221101 19:20:04.163"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:04.163" endtime="20221101 19:20:05.082"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:05.083" endtime="20221101 19:20:05.902"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:05.902" endtime="20221101 19:20:06.741"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:06.741" endtime="20221101 19:20:07.530"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:07.531" endtime="20221101 19:20:09.456"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:09.456" endtime="20221101 19:20:09.567"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:09.567" endtime="20221101 19:20:12.044"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:12.044" endtime="20221101 19:20:12.167"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:12.167" endtime="20221101 19:20:13.582"/>
+</kw>
+<status status="PASS" starttime="20221101 19:19:37.176" endtime="20221101 19:20:13.582"/>
+</kw>
+<tag>Automation</tag>
+<tag>case57</tag>
+<status status="PASS" starttime="20221101 19:19:37.175" endtime="20221101 19:20:13.582"/>
+</test>
+<test id="s1-t4" name="NGG-TC-22 Activity Details Screen - Activities">
+<kw name="Activity Details Screen - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:13.584" endtime="20221101 19:20:14.211"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:14.211" endtime="20221101 19:20:15.578"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:15.578" endtime="20221101 19:20:15.634"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:15.634" endtime="20221101 19:20:15.694"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:15.694" endtime="20221101 19:20:15.747"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:15.747" endtime="20221101 19:20:15.881"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:15.881" endtime="20221101 19:20:15.937"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:15.938" endtime="20221101 19:20:16.571"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:16.571" endtime="20221101 19:20:16.614"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:16.615" endtime="20221101 19:20:16.677"/>
+</kw>
+<status status="PASS" starttime="20221101 19:20:13.584" endtime="20221101 19:20:16.678"/>
+</kw>
+<tag>Automation</tag>
+<tag>case22</tag>
+<status status="PASS" starttime="20221101 19:20:13.584" endtime="20221101 19:20:16.678"/>
+</test>
+<test id="s1-t5" name="NGG-TC-23 See Attendees - Activities">
+<kw name="See Attendees - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:16.679" endtime="20221101 19:20:17.370"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:17.370" endtime="20221101 19:20:19.089"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:19.089" endtime="20221101 19:20:20.825"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:20.826" endtime="20221101 19:20:21.460"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:21.460" endtime="20221101 19:20:26.128"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:26.129" endtime="20221101 19:20:26.274"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:26.274" endtime="20221101 19:20:26.933"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:26.933" endtime="20221101 19:20:27.562"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:27.562" endtime="20221101 19:20:27.687"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:27.687" endtime="20221101 19:20:28.912"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:28.912" endtime="20221101 19:20:29.569"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:29.569" endtime="20221101 19:20:30.206"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:30.207" endtime="20221101 19:20:31.686"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:31.687" endtime="20221101 19:20:31.841"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:31.841" endtime="20221101 19:20:32.629"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnOkAttendees</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:32.629" endtime="20221101 19:20:33.322"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:33.322" endtime="20221101 19:20:33.393"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnOkAttendees</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:33.393" endtime="20221101 19:20:33.501"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:33.501" endtime="20221101 19:20:33.561"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:33.562" endtime="20221101 19:20:33.634"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:33.635" endtime="20221101 19:20:34.686"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:34.686" endtime="20221101 19:20:34.781"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:34.781" endtime="20221101 19:20:35.482"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:35.482" endtime="20221101 19:20:36.180"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:36.180" endtime="20221101 19:20:36.265"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:36.265" endtime="20221101 19:20:37.266"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:37.266" endtime="20221101 19:20:37.892"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:37.892" endtime="20221101 19:20:38.609"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:38.609" endtime="20221101 19:20:38.723"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:38.723" endtime="20221101 19:20:38.880"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:38.880" endtime="20221101 19:20:39.490"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:39.491" endtime="20221101 19:20:40.228"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:40.228" endtime="20221101 19:20:42.048"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:42.048" endtime="20221101 19:20:42.149"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:42.149" endtime="20221101 19:20:43.638"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:43.638" endtime="20221101 19:20:43.715"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:43.716" endtime="20221101 19:20:45.530"/>
+</kw>
+<status status="PASS" starttime="20221101 19:20:16.679" endtime="20221101 19:20:45.531"/>
+</kw>
+<tag>Automation</tag>
+<tag>case23</tag>
+<status status="PASS" starttime="20221101 19:20:16.679" endtime="20221101 19:20:45.531"/>
+</test>
+<test id="s1-t6" name="NGG-TC-26 See All Dates - Activities">
+<kw name="See All Dates - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:45.532" endtime="20221101 19:20:46.619"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:46.619" endtime="20221101 19:20:47.350"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:47.350" endtime="20221101 19:20:49.064"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:49.064" endtime="20221101 19:20:50.807"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:50.807" endtime="20221101 19:20:55.332"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:55.332" endtime="20221101 19:20:55.463"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDayOfTheWeekName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:55.464" endtime="20221101 19:20:56.163"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivNext</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:56.163" endtime="20221101 19:20:56.333"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:56.333" endtime="20221101 19:20:56.486"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnSeeAllDates</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:56.486" endtime="20221101 19:20:57.142"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:57.142" endtime="20221101 19:20:57.257"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:57.257" endtime="20221101 19:20:58.010"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:58.010" endtime="20221101 19:20:59.111"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:59.111" endtime="20221101 19:20:59.253"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:20:59.254" endtime="20221101 19:20:59.414"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:20:59.414" endtime="20221101 19:21:02.580"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:02.581" endtime="20221101 19:21:02.653"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:02.654" endtime="20221101 19:21:03.360"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:03.360" endtime="20221101 19:21:03.501"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:03.501" endtime="20221101 19:21:04.166"/>
+</kw>
+<status status="PASS" starttime="20221101 19:20:45.532" endtime="20221101 19:21:04.167"/>
+</kw>
+<tag>Automation</tag>
+<tag>case26</tag>
+<status status="PASS" starttime="20221101 19:20:45.531" endtime="20221101 19:21:04.167"/>
+</test>
+<test id="s1-t7" name="NGG-TC-27 Jump to today - Activities">
+<kw name="Jump to today - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:04.169" endtime="20221101 19:21:04.892"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:04.892" endtime="20221101 19:21:06.431"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:06.431" endtime="20221101 19:21:07.150"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:07.150" endtime="20221101 19:21:08.390"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/rvActivities</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:08.390" endtime="20221101 19:21:12.699"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:12.699" endtime="20221101 19:21:12.835"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:12.835" endtime="20221101 19:21:13.537"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:13.538" endtime="20221101 19:21:14.225"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:14.225" endtime="20221101 19:21:14.866"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivNext</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:14.866" endtime="20221101 19:21:15.510"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:15.510" endtime="20221101 19:21:15.657"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:15.657" endtime="20221101 19:21:16.664"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:16.664" endtime="20221101 19:21:17.327"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvBackToToday</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:17.328" endtime="20221101 19:21:18.086"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:18.086" endtime="20221101 19:21:18.248"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:18.248" endtime="20221101 19:21:19.008"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:19.008" endtime="20221101 19:21:19.097"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:19.097" endtime="20221101 19:21:20.228"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:20.228" endtime="20221101 19:21:21.245"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:21.246" endtime="20221101 19:21:21.331"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:21.331" endtime="20221101 19:21:23.835"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:23.835" endtime="20221101 19:21:24.854"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:24.854" endtime="20221101 19:21:25.432"/>
+</kw>
+<status status="PASS" starttime="20221101 19:21:04.168" endtime="20221101 19:21:25.432"/>
+</kw>
+<tag>Automation</tag>
+<tag>case27</tag>
+<status status="PASS" starttime="20221101 19:21:04.168" endtime="20221101 19:21:25.433"/>
+</test>
+<test id="s1-t8" name="NGG-TC-31 Available seats - Activities">
+<kw name="Available seats - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:25.433" endtime="20221101 19:21:26.186"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:26.186" endtime="20221101 19:21:28.088"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:28.089" endtime="20221101 19:21:29.256"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:29.256" endtime="20221101 19:21:30.583"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:30.583" endtime="20221101 19:21:35.128"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnSeeAllDates</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:35.128" endtime="20221101 19:21:35.299"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:35.299" endtime="20221101 19:21:35.437"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:35.437" endtime="20221101 19:21:36.085"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:36.085" endtime="20221101 19:21:36.735"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/ivBackgroundImage</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:36.735" endtime="20221101 19:21:38.088"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:38.088" endtime="20221101 19:21:38.208"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:38.208" endtime="20221101 19:21:38.887"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:38.887" endtime="20221101 19:21:39.667"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvSeats</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:39.667" endtime="20221101 19:21:41.148"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnRegister</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:41.148" endtime="20221101 19:21:41.260"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:41.260" endtime="20221101 19:21:41.390"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvSeats</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:41.390" endtime="20221101 19:21:42.166"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUnregister</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:42.166" endtime="20221101 19:21:43.323"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:43.323" endtime="20221101 19:21:43.383"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:43.383" endtime="20221101 19:21:44.092"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:44.092" endtime="20221101 19:21:44.906"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvBackToToday</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:44.907" endtime="20221101 19:21:45.961"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:45.961" endtime="20221101 19:21:46.040"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvBackToToday</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:46.040" endtime="20221101 19:21:46.837"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:46.837" endtime="20221101 19:21:46.977"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:46.977" endtime="20221101 19:21:49.144"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:49.144" endtime="20221101 19:21:49.255"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:49.255" endtime="20221101 19:21:51.009"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:51.010" endtime="20221101 19:21:51.094"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:51.094" endtime="20221101 19:21:53.596"/>
+</kw>
+<status status="PASS" starttime="20221101 19:21:25.433" endtime="20221101 19:21:53.596"/>
+</kw>
+<tag>Automation</tag>
+<tag>case31</tag>
+<status status="PASS" starttime="20221101 19:21:25.433" endtime="20221101 19:21:53.597"/>
+</test>
+<test id="s1-t9" name="NGG-TC-33 Register - Activities">
+<kw name="Register - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:53.598" endtime="20221101 19:21:54.834"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:54.835" endtime="20221101 19:21:55.490"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:55.490" endtime="20221101 19:21:56.171"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:21:56.171" endtime="20221101 19:21:58.135"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/rvActivities</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:21:58.135" endtime="20221101 19:22:02.795"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:02.795" endtime="20221101 19:22:02.948"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:02.948" endtime="20221101 19:22:03.127"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:03.127" endtime="20221101 19:22:03.799"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:03.799" endtime="20221101 19:22:04.477"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:04.477" endtime="20221101 19:22:05.147"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:05.147" endtime="20221101 19:22:05.817"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:05.817" endtime="20221101 19:22:07.432"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:07.432" endtime="20221101 19:22:08.098"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnRegister</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:08.098" endtime="20221101 19:22:09.587"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:09.587" endtime="20221101 19:22:09.726"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:09.726" endtime="20221101 19:22:09.859"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:09.859" endtime="20221101 19:22:10.657"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:10.657" endtime="20221101 19:22:11.505"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:11.505" endtime="20221101 19:22:11.686"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:11.686" endtime="20221101 19:22:13.655"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:13.655" endtime="20221101 19:22:13.748"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:13.748" endtime="20221101 19:22:15.698"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:15.698" endtime="20221101 19:22:15.791"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:15.791" endtime="20221101 19:22:16.635"/>
+</kw>
+<status status="PASS" starttime="20221101 19:21:53.598" endtime="20221101 19:22:16.635"/>
+</kw>
+<tag>Automation</tag>
+<tag>case33</tag>
+<status status="PASS" starttime="20221101 19:21:53.597" endtime="20221101 19:22:16.635"/>
+</test>
+<test id="s1-t10" name="NGG-TC-32 Unregister - Activities">
+<kw name="Unregister - Activities" library="Keywords">
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:16.636" endtime="20221101 19:22:19.097"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:19.097" endtime="20221101 19:22:20.930"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:20.930" endtime="20221101 19:22:21.663"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:21.663" endtime="20221101 19:22:23.582"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/rvActivities</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:23.583" endtime="20221101 19:22:28.262"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvDate</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:28.262" endtime="20221101 19:22:28.420"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:28.420" endtime="20221101 19:22:28.552"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:28.552" endtime="20221101 19:22:29.219"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:29.219" endtime="20221101 19:22:29.878"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>22</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:29.878" endtime="20221101 19:22:30.559"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:30.559" endtime="20221101 19:22:31.204"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>20</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:31.205" endtime="20221101 19:22:32.798"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:32.798" endtime="20221101 19:22:33.436"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/tvTitle</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:33.436" endtime="20221101 19:22:34.897"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>id=com.sentrics.engage360:id/btnUnregister</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:34.897" endtime="20221101 19:22:35.005"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>23</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:35.006" endtime="20221101 19:22:35.126"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:35.126" endtime="20221101 19:22:35.948"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:35.948" endtime="20221101 19:22:36.750"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:36.750" endtime="20221101 19:22:37.577"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>4</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:37.578" endtime="20221101 19:22:37.705"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:37.705" endtime="20221101 19:22:38.624"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>21</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:38.624" endtime="20221101 19:22:39.537"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="AppiumLibrary">
+<arg>Id=com.sentrics.engage360:id/tvGroupName</arg>
+<doc>Waits until element specified with `locator` is visible.</doc>
+<status status="PASS" starttime="20221101 19:22:39.537" endtime="20221101 19:22:43.599"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:43.599" endtime="20221101 19:22:43.713"/>
+</kw>
+<kw name="Press Keycode" library="AppiumLibrary">
+<arg>19</arg>
+<doc>Sends a press of keycode to the device.</doc>
+<status status="PASS" starttime="20221101 19:22:43.713" endtime="20221101 19:22:45.566"/>
+</kw>
+<status status="PASS" starttime="20221101 19:22:16.636" endtime="20221101 19:22:45.566"/>
+</kw>
+<tag>Automation</tag>
+<tag>case32</tag>
+<status status="PASS" starttime="20221101 19:22:16.636" endtime="20221101 19:22:45.567"/>
+</test>
+<kw name="Close All Applications" library="AppiumLibrary" type="TEARDOWN">
+<doc>Closes all open applications.</doc>
+<status status="PASS" starttime="20221101 19:22:45.568" endtime="20221101 19:22:45.689"/>
+</kw>
+<status status="PASS" starttime="20221101 19:18:51.606" endtime="20221101 19:22:45.689"/>
+</suite>
+<statistics>
+<total>
+<stat pass="10" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="10" fail="0" skip="0">Automation</stat>
+<stat pass="1" fail="0" skip="0">case22</stat>
+<stat pass="1" fail="0" skip="0">case23</stat>
+<stat pass="1" fail="0" skip="0">case26</stat>
+<stat pass="1" fail="0" skip="0">case27</stat>
+<stat pass="1" fail="0" skip="0">case31</stat>
+<stat pass="1" fail="0" skip="0">case32</stat>
+<stat pass="1" fail="0" skip="0">case33</stat>
+<stat pass="1" fail="0" skip="0">case57</stat>
+<stat pass="1" fail="0" skip="0">case58</stat>
+<stat pass="1" fail="0" skip="0">cases</stat>
+</tag>
+<suite>
+<stat pass="10" fail="0" skip="0" id="s1" name="Activities">Activities</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
